@@ -4,9 +4,11 @@ void setup(){
   frameRate(1000000);//sætter framerate
 }
 void draw(){
-  float p1 = r1*(0.0001*frameCount);//udregner en given løbers distance løbet. Her skal der findes en bedre måde at udregne tid på, hvor tiden ikke må være en int
+  float p1 = r1*(0.0001*frameCount);//udregner en given løbers distance løbet. Bedre metode skal findes.
   println(p1);//fjærnes senere da den kun er her for at checke at den udregner korrekt
   float p2 = r2*(0.0001*frameCount);
   //løber 2
   println(p2);
+  if (p1==10);
+  
 }
